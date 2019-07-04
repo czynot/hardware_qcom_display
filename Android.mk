@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-display))
+ifeq ($(call my-dir),hardware/qcom/display/msm8996)
 
 sdm-libs := sdm/libs
 display-hals := include $(sdm-libs)/utils $(sdm-libs)/core
